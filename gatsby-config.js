@@ -29,7 +29,7 @@ module.exports = {
     pages: [{
       type: 'Page',
       match: '/:uid',
-      path: '/page-preview',
+      previewPath: '/page-preview',
       component: require.resolve('./src/templates/Page.js'),
     }],
       },

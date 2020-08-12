@@ -1,7 +1,7 @@
 import React from "react";
 import { graphql } from "gatsby";
 import Layout from "../components/Layout";
-import SEO from "../components/SEO";
+// import SEO from '../components/SEO'
 import SliceZone from "../components/SliceZone";
 
 const Page = ({ data }) => {
@@ -15,7 +15,7 @@ const Page = ({ data }) => {
 
   return (
     <Layout>
-      <SEO title={capitalizeFirstLetter(document._meta.uid)} />
+      {/* <SEO title={capitalizeFirstLetter(document._meta.uid)} /> */}
       <SliceZone sliceZone={document.body} />
     </Layout>
   );

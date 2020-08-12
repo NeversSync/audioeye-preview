@@ -1,7 +1,7 @@
 import React from "react";
 import { graphql } from "gatsby";
 import Layout from "../components/Layout";
-import SEO from "../components/SEO";
+// import SEO from "../components/SEO";
 import HomepageBanner from "../components/HomepageBanner";
 import MainContent from "../components/MainContent";
 
@@ -20,7 +20,7 @@ const Homepage = ({ data }) => {
 
   return (
     <Layout isHomepage>
-      <SEO title="Home" />
+      {/* <SEO title="Home" /> */}
       <HomepageBanner bannerContent={bannerContent} />
       <MainContent />
     </Layout>
